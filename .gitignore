@@ -1,0 +1,114 @@
+########################
+# Unity
+########################
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Кэш пакетного менеджера
+[Pp]ackages/com.unity.*
+[Pp]ackages/packages-lock.json
+
+# Автогенерируемые файлы
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Rider / VS / VSCode
+.idea/
+.vs/
+.vscode/
+
+# Crash / отчёты / профилировщик
+sysinfo.txt
+*.stacktrace
+*.log
+*.dmp
+
+########################
+# Android
+########################
+
+# Gradle
+.gradle/
+**/build/
+**/local.properties
+.gradle/
+*.iml
+
+# Android Studio
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore (лучше хранить вне репозитория)
+*.keystore
+*.jks
+
+########################
+# iOS / Xcode
+########################
+
+# Сгенерированные Xcode-проекты
+*.xcworkspace
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+DerivedData/
+build/
+
+# CocoaPods (если экспортируете и используете)
+Pods/
+Podfile.lock
+
+########################
+# Системное и прочее
+########################
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# Архивы / временные файлы
+*.swp
+*.tmp
+*.temp
+*.bak
+
+# Unity Cloud / Collaborate (если не используете)
+UnityCloud/
