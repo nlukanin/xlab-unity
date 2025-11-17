@@ -63,7 +63,7 @@ captures/
 .externalNativeBuild/
 .cxx/
 
-# Keystore (лучше хранить вне репозитория)
+# Keystore 
 *.keystore
 *.jks
 
@@ -81,13 +81,9 @@ captures/
 DerivedData/
 build/
 
-# CocoaPods (если экспортируете и используете)
+# CocoaPods 
 Pods/
 Podfile.lock
-
-########################
-# Системное и прочее
-########################
 
 # OS X
 .DS_Store
@@ -110,5 +106,5 @@ $RECYCLE.BIN/
 *.temp
 *.bak
 
-# Unity Cloud / Collaborate (если не используете)
+# Unity Cloud / Collaborate
 UnityCloud/
